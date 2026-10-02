@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+position: relative;
+justify-content: center;
+width: 700px;
+height:700px;
+}
+.overlay{
+    height:500px ;
+width: 500px;
+position: absolute;
+font-size: 50px;
+font-weight: 900;
+z-index: 1;
+}
+.overlay:hover{
+height: 500px;
+width: 500px;
+position: absolute;
+background:url(car1.jpg) ;
+}
